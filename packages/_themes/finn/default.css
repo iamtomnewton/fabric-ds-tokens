@@ -3,7 +3,7 @@
  * Generated on Tue, 15 Feb 2022 10:27:44 GMT
  */
 
-.fabric-schibsted-default {
+.fabric-finn-default {
   --typography-meta-line-height: 1.5;
   --typography-meta-weight: 400;
   --typography-meta-size: 10px;
@@ -17,7 +17,7 @@
   --typography-body-weight: 400;
   --typography-body-size: 16px;
   --typography-subtitle-line-height: 1.5;
-  --typography-subtitle-weight: 400;
+  --typography-subtitle-weight: 500;
   --typography-subtitle-size: 18px;
   --typography-title-line-height: 1.5;
   --typography-title-weight: 700;
@@ -25,7 +25,7 @@
   --typography-heading-line-height: 1.5;
   --typography-heading-weight: 700;
   --typography-heading-size: 32px;
-  --typography-font-name: 'Inter';
+  --typography-font-name: 'Finntype';
   --space-max-width: 1024px;
   --space-min-width: 320px;
   --space-900: 72px;
@@ -37,54 +37,50 @@
   --space-300: 12px;
   --space-200: 8px;
   --space-100: 4px;
-  --elevation-600: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
-  --elevation-500: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
-  --elevation-400: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
-  --elevation-300: 0px 3px 4px rgba(0, 0, 0, 0.14), 0px 3px 3px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.2);
-  --elevation-200: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
-  --elevation-100: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
-  --color-ui-success: #0f854c;
-  --color-ui-inform: #bd5b00;
-  --color-ui-highlight: #bd5b00;
-  --color-ui-warning: #d82c4d;
+  --elevation-100: inset 0 -2px 0 0 rgb(0 0 0 / 15%);
+  --color-ui-success: #007200;
+  --color-ui-inform: #2ee69f;
+  --color-ui-highlight: #ff5844;
+  --color-ui-warning: #d9270a;
   --color-greyscale-black: #000000;
   --color-greyscale-white: #ffffff;
-  --color-greyscale-900: #15141a;
-  --color-greyscale-800: #35343a;
-  --color-greyscale-700: #535259;
-  --color-greyscale-600: #66656c;
-  --color-greyscale-500: #8d8c94;
-  --color-greyscale-400: #aeadb5;
-  --color-greyscale-300: #dddddd;
-  --color-greyscale-200: #eeeeee;
-  --color-greyscale-100: #f9f9fa;
-  --color-brand-secondary: #180c3c;
+  --color-greyscale-900: #171717;
+  --color-greyscale-800: #2b2b2b;
+  --color-greyscale-700: #464646;
+  --color-greyscale-600: #525252;
+  --color-greyscale-500: #767676;
+  --color-greyscale-400: #adadad;
+  --color-greyscale-300: #cccccc;
+  --color-greyscale-200: #e5e5e5;
+  --color-greyscale-100: #f5f5f5;
+  --color-brand-secondary: #38bdf8;
+  --color-brand-primary: #2563eb;
   --color-transparent: rgba(0, 0, 0, 0);
-  --border-radius: 40px;
-  --border-width: 1px;
-  --color-brand-primary: var(--color-greyscale-black);
+  --border-width: 2px;
+  --button-padding: 10px 14px;
+  --button-font-weight: 700;
+  --elevation-200: 0px var(--space-100) var(--space-200) rgba(0, 0, 0, 0.1);
+  --color-ui-action: var(--color-brand-primary);
+  --border-radius: var(--space-200);
   --button-warning-color-hover: var(--color-greyscale-white);
   --button-warning-color: var(--color-greyscale-white);
   --button-warning-border-hover: var(--border-width) solid var(--color-transparent);
   --button-warning-border: var(--border-width) solid var(--color-transparent);
-  --button-warning-background-hover: var(--color-brand-secondary);
+  --button-warning-background-hover: var(--color-ui-warning);
   --button-warning-background: var(--color-ui-warning);
   --button-action-color-hover: var(--color-greyscale-white);
   --button-action-color: var(--color-greyscale-white);
   --button-action-border-hover: var(--border-width) solid var(--color-transparent);
   --button-action-border: var(--border-width) solid var(--color-transparent);
-  --button-action-background-hover: var(--color-brand-secondary);
-  --button-padding: var(--space-300) 28px;
-  --button-font-weight: 400;
   --button-font-size: var(--typography-body-size);
-  --button-border-radius: var(--border-radius);
   --button-border-hover: var(--border-width) solid var(--color-ui-action);
-  --button-border: var(--border-width) solid var(--color-ui-action);
-  --button-background-hover: var(--color-greyscale-300);
+  --button-border: var(--border-width) solid var(--color-greyscale-300);
+  --button-background-hover: var(--color-greyscale-white);
   --button-background: var(--color-greyscale-white);
-  --color-ui-action: var(--color-brand-primary);
   --link-color: var(--color-ui-action);
+  --button-action-background-hover: var(--color-ui-action);
   --button-action-background: var(--color-ui-action);
   --button-color-hover: var(--color-ui-action);
   --button-color: var(--color-ui-action);
+  --button-border-radius: var(--border-radius);
 }

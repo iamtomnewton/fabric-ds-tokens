@@ -10,6 +10,7 @@ export const Button = styled.button<ButtonProps>`
   font-family: inherit;
   font-size: ${tokens['button-font-size']};
   font-weight: ${tokens['button-font-weight']};
+  line-height: 1.5;
   padding: ${tokens['button-padding']};
   text-decoration: none;
   width: ${(props) => (props.fullWidth ? '100%' : 'auto')};

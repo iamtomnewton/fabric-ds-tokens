@@ -9,8 +9,14 @@ import '../packages/_themes/bilbasen/default.css';
 import '../packages/_themes/dba/default.css';
 // import '../packages/_themes/dba/dark.css';
 
+// FINN
+import '../packages/_themes/finn/default.css';
+// import '../packages/_themes/finn/dark.css';
+
 // // SCHIBSTED
 import '../packages/_themes/schibsted/default.css';
+
+const brands = ['Bilbasen', 'DBA', 'Finn', 'Schibsted'];
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -32,11 +38,11 @@ export const globalTypes = {
   brand: {
     name: 'Brand',
     description: 'Brand',
-    defaultValue: 'Bilbasen',
+    defaultValue: 'Finn',
     toolbar: {
       icon: 'globe',
       // Array of plain string values or MenuItem shape (see below)
-      items: ['Bilbasen', 'DBA', 'Schibsted'],
+      items: brands,
       // Property that specifies if the name of the item will be displayed
       showName: true,
     },
@@ -55,14 +61,6 @@ export const globalTypes = {
   // },
 };
 
-const themeCatalogue = [
-  'bilbasen-default',
-  'bilbasen-dark',
-  'dba-default',
-  'dba-dark',
-  'schibsted-default',
-];
-
 // TODO – Add array of brand and theme combinations and only show relevant controls (i.e. a Brand may not have a dark theme etc)
 
 const withThemeTag = (Story, context) => {
@@ -75,13 +73,7 @@ const withThemeTag = (Story, context) => {
     <>
       <GlobalStyles />
       <div className={`fabric-${themeSelector}`}>
-        {!themeCatalogue.includes(themeSelector) ? (
-          <h2>
-            {`Unfortunately ${brand} does not currently have a ${theme} theme`}{' '}
-          </h2>
-        ) : (
-          <Story {...context} />
-        )}
+        <Story {...context} />
       </div>
     </>
   );
@@ -90,6 +82,22 @@ const withThemeTag = (Story, context) => {
 export const decorators = [withThemeTag];
 
 export const GlobalStyles = createGlobalStyle`
+@font-face {
+    font-family: "Finntype";
+    src: url("https://static.finncdn.no/_c/static/fonts/FINNTypeStrippet-Light.woff2") format("woff2"),
+        url("https://static.finncdn.no/_c/static/fonts/FINNTypeStrippet-Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Finntype";
+    src: url("https://static.finncdn.no/_c/static/fonts/FINNTypeStrippet-Medium.woff2") format("woff2"),
+        url("https://static.finncdn.no/_c/static/fonts/FINNTypeStrippet-Medium.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
   * {
     font-family: ${tokens['typography-font-name']};
   } 

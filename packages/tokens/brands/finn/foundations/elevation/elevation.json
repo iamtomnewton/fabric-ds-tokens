@@ -1,0 +1,10 @@
+{
+  "elevation": {
+    "100": {
+      "value": "inset 0 -2px 0 0 rgb(0 0 0 / 15%)"
+    },
+    "200": {
+      "value": "0px {space.100} {space.200} rgba(0, 0, 0, 0.1)"
+    }
+  }
+}

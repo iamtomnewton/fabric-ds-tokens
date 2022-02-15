@@ -18,6 +18,11 @@ const brandLibrary = [
     themes: [`default`],
   },
   {
+    brand: 'finn',
+    platforms: ['web'],
+    themes: [`default`],
+  },
+  {
     brand: 'schibsted',
     platforms: ['web'],
     themes: [`default`],
