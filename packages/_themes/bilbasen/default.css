@@ -1,0 +1,86 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 15 Feb 2022 07:55:37 GMT
+ */
+
+.fabric-bilbasen-default {
+  --typography-meta-line-height: 1.5;
+  --typography-meta-weight: 400;
+  --typography-meta-size: 10px;
+  --typography-small-line-height: 1.5;
+  --typography-small-weight: 400;
+  --typography-small-size: 12px;
+  --typography-caption-line-height: 1.5;
+  --typography-caption-weight: 400;
+  --typography-caption-size: 14px;
+  --typography-body-line-height: 1.5;
+  --typography-body-weight: 400;
+  --typography-body-size: 16px;
+  --typography-subtitle-line-height: 1.5;
+  --typography-subtitle-weight: 500;
+  --typography-subtitle-size: 18px;
+  --typography-title-line-height: 1.5;
+  --typography-title-weight: 700;
+  --typography-title-size: 24px;
+  --typography-heading-line-height: 1.5;
+  --typography-heading-weight: 700;
+  --typography-heading-size: 32px;
+  --typography-font-name: 'GTWalsheimProRegular';
+  --space-max-width: 1024px;
+  --space-min-width: 320px;
+  --space-900: 72px;
+  --space-800: 64px;
+  --space-700: 48px;
+  --space-600: 32px;
+  --space-500: 24px;
+  --space-400: 16px;
+  --space-300: 12px;
+  --space-200: 8px;
+  --space-100: 4px;
+  --elevation-100: inset 0 -2px 0 0 rgb(0 0 0 / 15%);
+  --color-ui-success: #35c759;
+  --color-ui-inform: #5856d7;
+  --color-ui-highlight: #ffa100;
+  --color-ui-warning: #ff3b31;
+  --color-greyscale-black: #000000;
+  --color-greyscale-white: #ffffff;
+  --color-greyscale-900: #202020;
+  --color-greyscale-800: #444446;
+  --color-greyscale-700: #8e8e93;
+  --color-greyscale-600: #b0b0b0;
+  --color-greyscale-500: #c7c7cc;
+  --color-greyscale-400: #dcdcde;
+  --color-greyscale-300: #e5e5ea;
+  --color-greyscale-200: #f3f4f5;
+  --color-greyscale-100: #fafafa;
+  --color-transparent: rgba(0, 0, 0, 0);
+  --color-brand-secondary: #002e5c;
+  --color-brand-primary: #ff4b00;
+  --border-width: 1px;
+  --elevation-200: 0px var(--space-100) var(--space-200) rgba(0, 0, 0, 0.1);
+  --color-ui-action: var(--color-brand-primary);
+  --border-radius: var(--space-100);
+  --button-warning-color-hover: var(--color-greyscale-white);
+  --button-warning-color: var(--color-greyscale-white);
+  --button-warning-border-hover: var(--border-width) solid var(--color-transparent);
+  --button-warning-border: var(--border-width) solid var(--color-transparent);
+  --button-warning-background-hover: var(--color-ui-warning);
+  --button-warning-background: var(--color-ui-warning);
+  --button-action-color-hover: var(--color-greyscale-white);
+  --button-action-color: var(--color-greyscale-white);
+  --button-action-border-hover: var(--border-width) solid var(--color-transparent);
+  --button-action-border: var(--border-width) solid var(--color-transparent);
+  --button-padding: var(--space-300) var(--space-400);
+  --button-font-weight: 500;
+  --button-font-size: var(--typography-subtitle-size);
+  --button-color: var(--color-greyscale-900);
+  --button-border-hover: var(--border-width) solid var(--color-ui-action);
+  --button-border: var(--border-width) solid var(--color-greyscale-900);
+  --button-background-hover: var(--color-greyscale-white);
+  --button-background: var(--color-greyscale-white);
+  --link-color: var(--color-ui-action);
+  --button-action-background-hover: var(--color-ui-action);
+  --button-action-background: var(--color-ui-action);
+  --button-color-hover: var(--color-ui-action);
+  --button-border-radius: var(--border-radius);
+}

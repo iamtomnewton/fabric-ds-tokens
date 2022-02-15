@@ -1,0 +1,16 @@
+{
+  "border": {
+    "width": {
+      "value": "1",
+      "attributes": {
+        "category": "size"
+      }
+    },
+    "radius": {
+      "value": "40",
+      "attributes": {
+        "category": "size"
+      }
+    }
+  }
+}

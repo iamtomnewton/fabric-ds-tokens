@@ -1,0 +1,64 @@
+{
+  "color": {
+    "transparent": {
+      "value": "transparent"
+    },
+    "brand": {
+      "primary": {
+        "value": "#00098A"
+      },
+      "secondary": {
+        "value": "#3269C8"
+      },
+      "tertiary": {
+        "value": "#E1EEFA"
+      }
+    },
+    "greyscale": {
+      "white": {
+        "value": "#fff"
+      },
+      "100": {
+        "value": "#F9F9F9"
+      },
+      "200": {
+        "value": "#F5F5F5"
+      },
+      "300": {
+        "value": "#E2E2E2"
+      },
+      "400": {
+        "value": "#C8C8C8"
+      },
+      "500": {
+        "value": "#999999"
+      },
+      "600": {
+        "value": "#666666"
+      },
+      "700": {
+        "value": "#333333"
+      },
+      "black": {
+        "value": "#000"
+      }
+    },
+    "ui": {
+      "action": {
+        "value": "{color.brand.secondary}"
+      },
+      "warning": {
+        "value": "#FF4D58"
+      },
+      "highlight": {
+        "value": "#B3CFF5"
+      },
+      "inform": {
+        "value": "#B3CFF5"
+      },
+      "success": {
+        "value": "#4CB98D"
+      }
+    }
+  }
+}

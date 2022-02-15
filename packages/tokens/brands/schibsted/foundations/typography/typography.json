@@ -1,0 +1,105 @@
+{
+  "typography": {
+    "font-name": {
+      "value": "'Inter'"
+    },
+    "heading": {
+      "size": {
+        "value": "32",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 700
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "title": {
+      "size": {
+        "value": "24",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 700
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "subtitle": {
+      "size": {
+        "value": "18",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 400
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "body": {
+      "size": {
+        "value": "16",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 400
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "caption": {
+      "size": {
+        "value": "14",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 400
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "small": {
+      "size": {
+        "value": "12",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 400
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    },
+    "meta": {
+      "size": {
+        "value": "10",
+        "attributes": {
+          "category": "size"
+        }
+      },
+      "weight": {
+        "value": 400
+      },
+      "line-height": {
+        "value": 1.5
+      }
+    }
+  }
+}

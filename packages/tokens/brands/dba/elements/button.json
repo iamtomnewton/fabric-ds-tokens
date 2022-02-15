@@ -1,0 +1,94 @@
+{
+  "button": {
+    "@": {
+      "background": {
+        "@": {
+          "value": "{color.greyscale.white}"
+        },
+        "hover": {
+          "value": "{color.brand.tertiary}"
+        }
+      },
+      "border": {
+        "@": {
+          "value": "{border.width} solid {color.ui.action}"
+        },
+        "hover": {
+          "value": "{border.width} solid {color.ui.action}"
+        }
+      },
+      "border-radius": {
+        "value": "{border.radius}"
+      },
+      "color": {
+        "@": {
+          "value": "{color.ui.action}"
+        },
+        "hover": {
+          "value": "{color.ui.action}"
+        }
+      },
+      "font-size": {
+        "value": "{typography.body.size}"
+      },
+      "font-weight": {
+        "value": "{typography.body.weight}"
+      },
+      "padding": {
+        "value": "{space.300} {space.400}"
+      }
+    },
+    "action": {
+      "background": {
+        "@": {
+          "value": "{color.ui.action}"
+        },
+        "hover": {
+          "value": "{color.brand.secondary}"
+        }
+      },
+      "border": {
+        "@": {
+          "value": "{border.width} solid {color.transparent}"
+        },
+        "hover": {
+          "value": "{border.width} solid {color.transparent}"
+        }
+      },
+      "color": {
+        "@": {
+          "value": "{color.greyscale.white}"
+        },
+        "hover": {
+          "value": "{color.greyscale.white}"
+        }
+      }
+    },
+    "warning": {
+      "background": {
+        "@": {
+          "value": "{color.ui.warning}"
+        },
+        "hover": {
+          "value": "{color.ui.warning}"
+        }
+      },
+      "border": {
+        "@": {
+          "value": "{border.width} solid {color.transparent}"
+        },
+        "hover": {
+          "value": "{border.width} solid {color.transparent}"
+        }
+      },
+      "color": {
+        "@": {
+          "value": "{color.greyscale.white}"
+        },
+        "hover": {
+          "value": "{color.greyscale.white}"
+        }
+      }
+    }
+  }
+}
