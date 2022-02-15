@@ -7,6 +7,7 @@ export const Button = styled.button<ButtonProps>`
   border: ${tokens['button-border']};
   border-radius: ${tokens['button-border-radius']};
   color: ${tokens['button-color']};
+  display: ${(props) => (props.fullWidth ? 'block' : 'inline-block')};
   font-family: inherit;
   font-size: ${tokens['button-font-size']};
   font-weight: ${tokens['button-font-weight']};
@@ -65,5 +66,22 @@ export const Button = styled.button<ButtonProps>`
     &:hover {
       color: ${tokens[`button-${props.variant}-background`]};
     }
+  `}
+
+  /* Loading */
+
+  ${(props) =>
+    props.loading &&
+    `
+    color: ${tokens['color-greyscale-500']};
+    border: none;
+  `}
+
+    /* small */
+
+    ${(props) =>
+    props.small &&
+    `
+    font-size: ${tokens['typography-small-size']}
   `}
 `;

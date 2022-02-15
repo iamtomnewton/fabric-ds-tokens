@@ -144,7 +144,7 @@ export const Example = () => {
         </Button>
         {/* @ts-ignore */}
         <Button className="mr-32" link small>
-          Loading
+          Small
         </Button>
       </div>
       <div>

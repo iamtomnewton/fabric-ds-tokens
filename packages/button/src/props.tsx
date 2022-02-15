@@ -1,6 +1,9 @@
 export type ButtonProps = {
   children: React.ReactNode;
 
+  /** Selects the variant and changes the display of the button */
+  variant?: 'action' | 'warning';
+
   /**
    * Additional classes to include
    */
@@ -21,18 +24,6 @@ export type ButtonProps = {
    * @default button
    */
   type?: 'button' | 'submit' | 'reset';
-
-  /**
-   * Set the button to be a primary, call to action button. Can be combined with `small`.
-   * @default false
-   */
-  primary?: boolean;
-
-  /**
-   * Set the button to be a secondary, flat style button. Can be combined with `quiet` and `small`.
-   * @default true
-   */
-  secondary?: boolean;
 
   /**
    * Set the button to be a negative, destructive style button. Can be combined with `quiet` and `small`.
@@ -86,13 +77,13 @@ export type ButtonProps = {
    */
   target?: string;
 
+  /** Set the button to be full-width */
+  fullWidth?: boolean;
+
   /**
    * The relationship of the linked URL
    */
   rel?: string;
-
-  /** Selects the variant and changes the display of the button */
-  variant?: 'action' | 'warning';
 } & Omit<
   React.PropsWithoutRef<JSX.IntrinsicElements['button']>,
   // omit children here, because we don't want children to be optional
