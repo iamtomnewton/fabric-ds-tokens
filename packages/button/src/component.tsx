@@ -40,7 +40,7 @@ export const Button = forwardRef<
         </styled.Button>
       ) : (
         <styled.Button
-          {...{ link, variant, fullWidth, small, loading }}
+          {...{ link, variant, fullWidth, small, loading, quiet }}
           variant={props.variant}
           type={props.type || 'button'}
           ref={ref as Ref<HTMLButtonElement>}

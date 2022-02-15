@@ -68,6 +68,14 @@ export const Button = styled.button<ButtonProps>`
     }
   `}
 
+  /* small */
+
+  ${(props) =>
+    props.small &&
+    `
+    font-size: ${tokens['typography-small-size']};
+  `}
+
   /* Loading */
 
   ${(props) =>
@@ -77,11 +85,15 @@ export const Button = styled.button<ButtonProps>`
     border: none;
   `}
 
-    /* small */
+  /* Quiet */
 
-    ${(props) =>
-    props.small &&
+  ${(props) =>
+    props.quiet &&
     `
-    font-size: ${tokens['typography-small-size']}
+    border: none;
+
+    &:hover {
+      border: none;
+    }
   `}
 `;
