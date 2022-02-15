@@ -10,7 +10,7 @@ export const Example = () => {
       <div>
         <h3>Primary</h3>
         {/* @ts-ignore */}
-        <Button className="mr-32" primary>
+        <Button className="mr-32" primary variant="action">
           Simple
         </Button>
         <Button className="mr-32" primary href="https://google.com">

@@ -88,6 +88,7 @@
   },
   "dependencies": {
     "@chbphone55/classnames": "^2.0.0",
+    "@storybook/addon-essentials": "^6.4.19",
     "d3-scale": "^4.0.2",
     "react-focus-lock": "^2.5.2",
     "react-spring": "^8.0.27",

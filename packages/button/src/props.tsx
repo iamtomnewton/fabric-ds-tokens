@@ -90,6 +90,9 @@ export type ButtonProps = {
    * The relationship of the linked URL
    */
   rel?: string;
+
+  /** Selects the variant and changes the display of the button */
+  variant?: 'action' | 'warning';
 } & Omit<
   React.PropsWithoutRef<JSX.IntrinsicElements['button']>,
   // omit children here, because we don't want children to be optional

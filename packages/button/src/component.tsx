@@ -1,6 +1,7 @@
 import React, { forwardRef, Ref } from 'react';
 import { classNames } from '@chbphone55/classnames';
 import type { ButtonProps } from './props';
+import * as styled from './styles';
 
 export const Button = forwardRef<
   HTMLButtonElement | HTMLAnchorElement,
@@ -49,14 +50,14 @@ export const Button = forwardRef<
           {props.children}
         </a>
       ) : (
-        <button
+        <styled.Button
           {...rest}
           type={props.type || 'button'}
           ref={ref as Ref<HTMLButtonElement>}
           className={classes}
         >
           {props.children}
-        </button>
+        </styled.Button>
       )}
       {props.loading ? (
         <span
