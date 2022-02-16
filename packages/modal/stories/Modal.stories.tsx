@@ -24,7 +24,7 @@ export const Example = () => {
             <Button onClick={toggleModal} className="mr-12">
               Cancel
             </Button>
-            <Button primary onClick={toggleModal}>
+            <Button variant="action" onClick={toggleModal}>
               Accept
             </Button>
           </>
@@ -62,7 +62,7 @@ export const WithBackAndCloseButton = () => {
             <Button onClick={toggleModal} className="mr-12">
               Cancel
             </Button>
-            <Button primary onClick={toggleModal}>
+            <Button variant="action" onClick={toggleModal}>
               Accept
             </Button>
           </>
@@ -95,7 +95,7 @@ export const MustConfirmToProceed = () => {
         onDismiss={toggleModal}
         title="Do you agree to these terms?"
         footer={
-          <Button primary onClick={toggleModal} disabled={!checked}>
+          <Button variant="action" onClick={toggleModal} disabled={!checked}>
             Accept
           </Button>
         }
@@ -128,7 +128,7 @@ export const InitialFocus = () => {
             <Button onClick={toggleModal} className="mr-12">
               Cancel
             </Button>
-            <Button ref={focusRef} primary onClick={toggleModal}>
+            <Button ref={focusRef} variant="action" onClick={toggleModal}>
               Accept
             </Button>
           </>
@@ -164,7 +164,7 @@ export const Overflowing = () => {
             <Button onClick={toggleModal} className="mr-12">
               Cancel
             </Button>
-            <Button primary onClick={toggleModal}>
+            <Button variant="action" onClick={toggleModal}>
               Accept
             </Button>
           </>
