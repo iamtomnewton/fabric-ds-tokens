@@ -28,7 +28,7 @@ export const Button = forwardRef<
     <>
       {props.href ? (
         <styled.Button
-          variant={props.variant}
+          {...{ link, variant, fullWidth, small, loading, quiet, utility }}
           href={props.href}
           target={props.target}
           rel={props.target === '_blank' ? props.rel || 'noopener' : undefined}
@@ -40,7 +40,7 @@ export const Button = forwardRef<
         </styled.Button>
       ) : (
         <styled.Button
-          {...{ link, variant, fullWidth, small, loading, quiet }}
+          {...{ link, variant, fullWidth, small, loading, quiet, utility }}
           variant={props.variant}
           type={props.type || 'button'}
           ref={ref as Ref<HTMLButtonElement>}

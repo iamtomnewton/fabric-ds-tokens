@@ -74,6 +74,7 @@ export const Button = styled.button<ButtonProps>`
     props.small &&
     `
     font-size: ${tokens['typography-small-size']};
+    padding: 6px 16px;
   `}
 
   /* Loading */
@@ -94,6 +95,28 @@ export const Button = styled.button<ButtonProps>`
 
     &:hover {
       border: none;
+    }
+  `}
+
+  ${(props) =>
+    props.quiet &&
+    !props.loading &&
+    props.variant === 'warning' &&
+    `
+    background: ${tokens['color-transparent']};
+    color: ${tokens[`button-${props.variant}-background`]};
+  `}
+
+    /* Utility */
+
+  ${(props) =>
+    props.utility &&
+    `
+    border-width: 1px;
+    color: ${tokens['color-greyscale-500']};
+
+    &:hover {
+      border-width: 1px;
     }
   `}
 `;
