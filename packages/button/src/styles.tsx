@@ -83,7 +83,7 @@ export const Button = styled.button<ButtonProps>`
     props.loading &&
     `
     color: ${tokens['color-greyscale-500']};
-    border: none;
+    border-color: ${tokens['color-transparent']};
   `}
 
   /* Quiet */
