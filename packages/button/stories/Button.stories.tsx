@@ -129,11 +129,11 @@ export const Example = () => {
         <h3>Pill</h3>
         {/* @ts-ignore */}
         <Button className="mr-32" pill>
-          Simple
+          Pill
         </Button>
         {/* @ts-ignore */}
         <Button className="mr-32" pill loading>
-          Loading
+          Pill
         </Button>
       </div>
       <div>

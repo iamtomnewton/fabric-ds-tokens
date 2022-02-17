@@ -1,5 +1,6 @@
-import { ButtonProps } from './props';
 import styled from 'styled-components';
+
+import { ButtonProps } from './props';
 import { tokens } from '../../tokens';
 
 export const Button = styled.button<ButtonProps>`
@@ -107,7 +108,7 @@ export const Button = styled.button<ButtonProps>`
     color: ${tokens[`button-${props.variant}-background`]};
   `}
 
-    /* Utility */
+  /* Utility */
 
   ${(props) =>
     props.utility &&
@@ -118,5 +119,19 @@ export const Button = styled.button<ButtonProps>`
     &:hover {
       border-width: 1px;
     }
+  `}
+
+  /* Pill */
+
+  ${(props) =>
+    props.pill &&
+    `
+    border-color: ${tokens['color-transparent']};
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
   `}
 `;

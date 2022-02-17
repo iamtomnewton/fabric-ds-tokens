@@ -9,26 +9,20 @@ export const Button = forwardRef<
   const { utility, quiet, small, link, pill, loading, variant, fullWidth } =
     props;
 
-  // const classes = classNames(props.className, {
-  //   button: true,
-  //   // primary buttons
-  //   //'button--destructive': negative,
-  //   // quiet
-  //   //'button--destructive-flat': negative && quiet,
-  //   //'button--utility-flat': utility && quiet,
-  //   // others
-  //   //'button--small': small,
-  //   //'button--utility': utility && !quiet,
-  //   //'button--link': link,
-  //   //'button--pill': pill,
-  //   'button--in-progress': loading,
-  // });
-
   return (
     <>
       {props.href ? (
         <styled.Button
-          {...{ link, variant, fullWidth, small, loading, quiet, utility }}
+          {...{
+            link,
+            variant,
+            fullWidth,
+            small,
+            loading,
+            quiet,
+            utility,
+            pill,
+          }}
           href={props.href}
           target={props.target}
           rel={props.target === '_blank' ? props.rel || 'noopener' : undefined}
@@ -40,7 +34,16 @@ export const Button = forwardRef<
         </styled.Button>
       ) : (
         <styled.Button
-          {...{ link, variant, fullWidth, small, loading, quiet, utility }}
+          {...{
+            link,
+            variant,
+            fullWidth,
+            small,
+            loading,
+            quiet,
+            utility,
+            pill,
+          }}
           variant={props.variant}
           type={props.type || 'button'}
           ref={ref as Ref<HTMLButtonElement>}
